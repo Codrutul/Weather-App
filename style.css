@@ -1,0 +1,54 @@
+body{
+    margin :0;
+    font-family:sans-serif;
+}
+.search{
+    background :darkblue;
+    align-items: center;
+    padding:20px;
+    color:white;
+    font-size: large;
+    
+}
+.weather-container{
+    padding-top:20px ;
+text-align: center;  
+padding-bottom: 800px; 
+color: black; 
+font-size: 30px;
+
+}
+input{
+    display: flex;
+}
+.input1{
+    height:60px;
+    width:300px;
+    background:white;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    float:right;
+    margin-top: -50px;
+    margin-right: 1000px;
+    border-radius: 10em;
+}
+#name{
+    width: 20%;
+    height:40px;
+    
+}
+.temperature{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+#units{
+    width:4%;
+    cursor: pointer;
+    border-radius: 5em;
+}
